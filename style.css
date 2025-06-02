@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100hv;
+    box-sizing: border-box;
+}
+#cabecalho{
+    background-color: blue;
+    color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+#lista-pocoyo{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+#lista-pocoyo div{
+    background-color: azure;
+    border: 10x;
+    box-shadow: 0 4px black;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3 ease;
+}
+#lista-pocoyo div:hover{
+    transform: scale(1.05);
+}
+img {
+    width: 1080px;
+  }
